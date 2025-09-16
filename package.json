@@ -1,12 +1,12 @@
 {
-  "name": "json2form",
+  "name": "json-form-generator",
   "version": "1.0.0",
   "description": "React form generator based on JSON configuration",
   "private": false,
-  "homepage": "https://etozhenadim.github.io/JSON2Form/",
+  "homepage": "https://etozhenadim.github.io/json-form-generator/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/etozhenadim/JSON2Form.git"
+    "url": "https://github.com/etozhenadim/json-form-generator.git"
   },
   "keywords": [
     "react",
