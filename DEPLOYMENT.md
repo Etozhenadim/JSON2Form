@@ -16,19 +16,16 @@ Update the following files with your GitHub username:
 #### package.json
 ```json
 {
-  "homepage": "https://YOUR-USERNAME.github.io/form-json-generator",
+  "homepage": "https://etozhenadim.github.io/JSON2Form/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR-USERNAME/form-json-generator.git"
+    "url": "https://github.com/etozhenadim/JSON2Form.git"
   }
 }
 ```
 
 #### README.md
-Replace `your-username` with your actual GitHub username in:
-- Repository URLs
-- Live Demo links
-- Clone commands
+All URLs are already configured for the JSON2Form repository.
 
 ### 3. Push to GitHub
 
@@ -42,8 +39,8 @@ git add .
 # Commit changes
 git commit -m "Initial commit: Form JSON Generator"
 
-# Add remote origin (replace with your repository URL)
-git remote add origin https://github.com/YOUR-USERNAME/form-json-generator.git
+# Add remote origin
+git remote add origin https://github.com/etozhenadim/JSON2Form.git
 
 # Push to main branch
 git push -u origin main
@@ -60,7 +57,7 @@ Once you push to the `main` branch, GitHub Actions will automatically:
 ### 5. Access Your App
 
 Your app will be available at:
-`https://YOUR-USERNAME.github.io/form-json-generator`
+`https://etozhenadim.github.io/JSON2Form/`
 
 ## Manual Deployment
 

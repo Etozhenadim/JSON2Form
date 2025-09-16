@@ -1,4 +1,4 @@
-# 📝 Form JSON Generator
+# 📝 JSON2Form
 
 A powerful React + TypeScript application that generates dynamic forms from JSON configuration. Create complex forms with various field types, validation rules, and custom styling through a simple JSON schema.
 
@@ -133,7 +133,7 @@ A powerful React + TypeScript application that generates dynamic forms from JSON
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green.svg)](https://your-username.github.io/form-json-generator)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green.svg)](https://etozhenadim.github.io/JSON2Form/)
 
 ## 📸 Screenshots
 
@@ -158,8 +158,8 @@ A powerful React + TypeScript application that generates dynamic forms from JSON
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/form-json-generator.git
-cd form-json-generator
+git clone https://github.com/etozhenadim/JSON2Form.git
+cd JSON2Form
 ```
 
 2. Install dependencies:
