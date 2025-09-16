@@ -1,8 +1,13 @@
-# Form JSON Generator
+# 📝 Form JSON Generator
 
 A powerful React + TypeScript application that generates dynamic forms from JSON configuration. Create complex forms with various field types, validation rules, and custom styling through a simple JSON schema.
 
-## Features
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.0-blue.svg)](https://tailwindcss.com/)
+[![Monaco Editor](https://img.shields.io/badge/Monaco%20Editor-4.6.0-blue.svg)](https://microsoft.github.io/monaco-editor/)
+
+## ✨ Features
 
 - 🎨 **Visual Form Builder**: Real-time form preview with live editing
 - 📝 **Multiple Field Types**: Support for text, number, textarea, checkbox, date, and enum fields
@@ -12,6 +17,8 @@ A powerful React + TypeScript application that generates dynamic forms from JSON
 - 💾 **Local Storage**: Automatic saving of configurations
 - 🎯 **Live Preview**: Real-time form preview while editing
 - 📋 **Example Templates**: Pre-built form configurations
+- 🌙 **Dark Theme**: VS Code-inspired dark theme
+- 🚫 **Smart Validation**: Result tab blocked when config has errors
 
 ## Supported Field Types
 
@@ -124,7 +131,24 @@ A powerful React + TypeScript application that generates dynamic forms from JSON
 }
 ```
 
-## Getting Started
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green.svg)](https://your-username.github.io/form-json-generator)
+
+## 📸 Screenshots
+
+### Config Tab
+- JSON Editor with syntax highlighting
+- Real-time validation
+- Example templates
+- Live preview toggle
+
+### Result Tab
+- Generated form preview
+- Field validation
+- Form submission with data display
+
+## 🛠️ Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -134,7 +158,7 @@ A powerful React + TypeScript application that generates dynamic forms from JSON
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/your-username/form-json-generator.git
 cd form-json-generator
 ```
 
@@ -157,6 +181,26 @@ npm run build
 ```
 
 This builds the app for production to the `build` folder.
+
+### Deploy to GitHub Pages
+
+1. Install gh-pages:
+```bash
+npm install --save-dev gh-pages
+```
+
+2. Add deploy script to package.json:
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+3. Deploy:
+```bash
+npm run deploy
+```
 
 ## Usage
 

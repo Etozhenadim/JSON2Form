@@ -1,8 +1,23 @@
 {
-  "name": "form-json-generator",
+  "name": "json2form",
   "version": "1.0.0",
-  "description": "React + TypeScript form generator based on JSON configuration",
-  "private": true,
+  "description": "React form generator based on JSON configuration",
+  "private": false,
+  "homepage": "https://etozhenadim.github.io/JSON2Form/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etozhenadim/JSON2Form.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "form-generator",
+    "json",
+    "monaco-editor",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
     "@types/node": "^20.0.0",
@@ -19,6 +34,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.0",
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.0",
     "tailwindcss": "^3.3.0"
   },
@@ -26,7 +42,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
