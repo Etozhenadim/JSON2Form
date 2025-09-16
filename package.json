@@ -47,7 +47,8 @@
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "type-check": "tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "export": "npm run build && npx serve -s build -l 3000"
   },
   "eslintConfig": {
     "extends": [
